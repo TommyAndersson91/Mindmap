@@ -12,6 +12,9 @@
 		A31AB93B225F232C0074C165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31AB939225F232C0074C165 /* Main.storyboard */; };
 		A31AB93D225F23300074C165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31AB93C225F23300074C165 /* Assets.xcassets */; };
 		A31AB940225F23300074C165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31AB93E225F23300074C165 /* LaunchScreen.storyboard */; };
+		A31AB948225F356E0074C165 /* LineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A31AB947225F356E0074C165 /* LineView.xib */; };
+		A31AB94A225F35990074C165 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AB949225F35990074C165 /* LineView.swift */; };
+		A31AB94C225F36130074C165 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AB94B225F36130074C165 /* BubbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A31AB93C225F23300074C165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A31AB93F225F23300074C165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A31AB941225F23300074C165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31AB947225F356E0074C165 /* LineView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LineView.xib; sourceTree = "<group>"; };
+		A31AB949225F35990074C165 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		A31AB94B225F36130074C165 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				A31AB93C225F23300074C165 /* Assets.xcassets */,
 				A31AB93E225F23300074C165 /* LaunchScreen.storyboard */,
 				A31AB941225F23300074C165 /* Info.plist */,
+				A31AB947225F356E0074C165 /* LineView.xib */,
+				A31AB949225F35990074C165 /* LineView.swift */,
+				A31AB94B225F36130074C165 /* BubbleView.swift */,
 			);
 			path = Mindmap;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A31AB948225F356E0074C165 /* LineView.xib in Resources */,
 				A31AB940225F23300074C165 /* LaunchScreen.storyboard in Resources */,
 				A31AB93D225F23300074C165 /* Assets.xcassets in Resources */,
 				A31AB93B225F232C0074C165 /* Main.storyboard in Resources */,
@@ -137,6 +147,8 @@
 			files = (
 				A31AB938225F232C0074C165 /* ViewController.swift in Sources */,
 				A31AB936225F232C0074C165 /* AppDelegate.swift in Sources */,
+				A31AB94C225F36130074C165 /* BubbleView.swift in Sources */,
+				A31AB94A225F35990074C165 /* LineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
